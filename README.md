@@ -17,5 +17,5 @@ Toutes les personnes portant un intêret ou ayant participé à r/place
 
 ### Dataset
 - https://www.kaggle.com/datasets/residentmario/reddit-rplace-history?resource=download
-https://www.reddit.com/r/place/comments/txvk2d/rplace_datasets_april_fools_2022/
-https://placedata.reddit.com/data/canvas-history/index.html
+- https://www.reddit.com/r/place/comments/txvk2d/rplace_datasets_april_fools_2022/
+- https://placedata.reddit.com/data/canvas-history/index.html
