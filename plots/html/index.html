@@ -80,6 +80,9 @@
         flex-direction: column;
         margin-bottom: 20px;
     }
+    #reference{
+        margin-top: 50px;
+    }
 </style>
 <body>
     <div class="app flex">
@@ -89,7 +92,43 @@
 
         <main>
             <div class="group">
-                <h2>Utilisateurs</h2>
+                <h2>r/place ?</h2>
+                <p>R/place est un événement virtuel qui se déroule sur Reddit.</p>
+                <p>
+                    La première édition a été lancée en 2017, et 5 ans plus tard a eu lieu la deuxième édition,
+                    sur laquelle nous nous concentrons dans ses différentes analyses.
+                </p>
+                <p>
+                    Dans cet événement, les utilisateurs peuvent placer 1 seul pixel de couleur sur une tuile d'un 
+                    million de pixels initialement vide, et doivent ensuite attendre 20 minutes avant de pouvoir en placer un autre.
+                    L'utilisateur a la possibilité de placer son pixel au-dessus d'un pixel déjà existant, 
+                    ce qui a pour effet de faire disparaître l'ancien.
+                </p>
+                <p>
+                    Une fois l’événement terminé, la tuile représente une grande image avec tous les pixels coloriés par les utilisateurs.
+                </p>
+            </div>
+            <div class="group">
+                <h2>L'édition 2022</h2>
+                <p>La deuxième édition a débuté le 1er avril et a pris fin le 5 avril 2022.</p>
+                <p>
+                    Plusieurs communautés dans le monde se sont organisées pour pouvoir dessiner pixel par pixel des images précises. 
+                    Ce qui a provoqué une sorte de “guerre des pixels” pour réussir à avoir son dessin dans la version finale de la tuile.
+                </p>
+                <p>
+                    Cette édition en particulier a été un fort succès, car de nombreux contributeurs  (streameurs, influenceurs, ...)
+                    à fortes communautés on participer à la construction.
+                </p>
+            </div>
+            <div class="group">
+                <h2 id="title">Statistiques</h2>
+                <p>
+                    Voici donc les différentes statistiques qui reposent principalement sur les activités des 
+                    utilisateurs (dont vous faites peut-être partie).
+                </p>
+            </div>
+            <div class="group">
+                <h3>Utilisateurs</h3>
                 <ul>
                     <li>
                         <a href="users_clicks.html">Utilisateurs</a>
@@ -100,7 +139,7 @@
                 </ul>
             </div>
             <div class="group">
-                <h2>Heures</h2>
+                <h3>Heures</h3>
                 <ul>
                     <li>
                         <a href="hours.html">Heures d'influences</a>
@@ -108,7 +147,7 @@
                 </ul>
             </div>
             <div class="group">
-                <h2>Couleurs</h2>
+                <h3>Couleurs</h3>
                 <ul>
                     <li>
                         <a href="colors.html">Couleurs les plus utilisées</a>
@@ -116,7 +155,7 @@
                 </ul>
             </div>
             <div class="group">
-                <h2>Densité de clicks</h2>
+                <h3>Densité de clicks</h3>
                 <ul>
                     <li>
                         <a href="density_2d.html">Densité de clicks</a>
@@ -126,6 +165,17 @@
                     </li>
                     <li>
                         <a href="density_log_3d.html">Densité de clicks 3D (échelle logarithmique)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="group" id="reference">
+                <h3>Références</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.reddit.com/r/place/?cx=1161&cy=526&px=199&ts=1649112460185">Subreddit r/place</a>
+                    </li>
+                    <li>
+                        <a href="https://www.reddit.com/r/place/comments/txvk2d/rplace_datasets_april_fools_2022/">Dataset</a>
                     </li>
                 </ul>
             </div>
