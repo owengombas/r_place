@@ -2,6 +2,7 @@
     font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: content-box;
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -11,65 +12,98 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 main {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 footer {
     font-size: 0.9em;
 }
-h1, h2, h3, h4, h5, h6, ul {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
     margin: 0;
 }
+
 h1 {
-    font-family: 2em;
+    font-size: 2.5em;
 }
+
 h2 {
-    font-family: 1.5em;
+    font-size: 2em;
 }
+
+h3 {
+    font-size: 1.3em;
+}
+
 a {
     color: rgb(0, 136, 255);
 }
+
 a:active {
     color: rgb(0, 136, 255);
 }
+
 a:visited {
     color: rgb(0, 136, 255);
 }
+
 .app {
     width: 50%;
     min-width: 500px;
 }
+
+.stats {
+    margin-bottom: 50px;
+}
+
 .opacity-50 {
     opacity: 0.5;
 }
+
 .flex-1 {
     flex: 1;
 }
+
 .flex {
     display: flex;
     flex-direction: column;
 }
+
 .row {
     flex-direction: row;
 }
+
 .justify-content-center {
     justify-content: center;
 }
+
 .justify-content-end {
     justify-content: flex-end;
 }
+
 .justify-content-space-between {
     justify-content: space-between;
 }
+
 .align-items-center {
     align-items: center;
 }
+
 .group {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
-#reference{
+
+#reference {
     margin-top: 50px;
 }
