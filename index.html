@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualisation de données</title><link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app flex">
+        <header class="flex row">
+            <h1>Analyse de données sur r/place 2022</h1>
+        </header>
+
+        <main>
+            <div class="group">
+                <h2>r/place ?</h2>
+                <p>R/place est un événement virtuel qui se déroule sur Reddit.</p>
+                <p>
+                    La première édition a été lancée en 2017, et 5 ans plus tard a eu lieu la deuxième édition,
+                    sur laquelle nous nous concentrons dans ses différentes analyses.
+                </p>
+                <p>
+                    Dans cet événement, les utilisateurs peuvent placer 1 seul pixel de couleur sur une tuile d'un 
+                    million de pixels initialement vide, et doivent ensuite attendre 20 minutes avant de pouvoir en placer un autre.
+                    L'utilisateur a la possibilité de placer son pixel au-dessus d'un pixel déjà existant, 
+                    ce qui a pour effet de faire disparaître l'ancien.
+                </p>
+                <p>
+                    Une fois l’événement terminé, la tuile représente une grande image avec tous les pixels coloriés par les utilisateurs.
+                </p>
+            </div>
+            <div class="group">
+                <h2>L'édition 2022</h2>
+                <p>La deuxième édition a débuté le 1er avril et a pris fin le 5 avril 2022.</p>
+                <p>
+                    Plusieurs communautés dans le monde se sont organisées pour pouvoir dessiner pixel par pixel des images précises. 
+                    Ce qui a provoqué une sorte de “guerre des pixels” pour réussir à avoir son dessin dans la version finale de la tuile.
+                </p>
+                <p>
+                    Cette édition en particulier a été un fort succès, car de nombreux contributeurs  (streameurs, influenceurs, ...)
+                    à fortes communautés on participer à la construction.
+                </p>
+            </div>
+            <div class="group">
+                <h2 id="title">Statistiques</h2>
+                <p>
+                    Voici donc les différentes statistiques qui reposent principalement sur les activités des 
+                    utilisateurs (dont vous faites peut-être partie).
+                </p>
+            </div>
+            <div class="stats">
+                <div class="group">
+                    <h3>Utilisateurs</h3>
+                    <ul>
+                        <li>
+                            <a href="users_clicks.html">Nombre d'utilisateur ayant fait un certain nombre de click</a>
+                        </li>
+                        <li>
+                            <a href="users_clicks_log.html">Nombre d'utilisateur ayant fait un certain nombre de click - échelle logarithmique</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="group">
+                    <h3>Heures</h3>
+                    <ul>
+                        <li>
+                            <a href="hours.html">Les heures d'influences</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="group">
+                    <h3>Couleurs</h3>
+                    <ul>
+                        <li>
+                            <a href="colors.html">Les couleurs les plus utilisées</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="group">
+                    <h3>Densité de clicks</h3>
+                    <ul>
+                        <li>
+                            <a href="density_2d.html">Densité de clicks en 2D</a>
+                        </li>
+                        <li>
+                            <a href="density_3d.html">Densité de clicks en 3D</a>
+                        </li>
+                        <li>
+                            <a href="density_log_3d.html">Densité de clicks en 3D - échelle logarithmique</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="group">
+                    <h3>Image finale</h3>
+                    <ul>
+                        <li>
+                            <a href="image_last_1585778400.0_1680559200.0.html">Image avec la dernière couleur sur chacun des pixels</a>
+                        </li>
+                        <li>
+                            <a href="image_max_1585778400.0_1680559200.0.html">Image avec la couleur la plus dominante sur chacun des pixels</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="group">
+                <h2>Références</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.reddit.com/r/place/?cx=1161&cy=526&px=199&ts=1649112460185">Subreddit r/place</a>
+                    </li>
+                    <li>
+                        <a href="https://www.reddit.com/r/place/comments/txvk2d/rplace_datasets_april_fools_2022/">Dataset</a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="flex row justify-content-space-between opacity-50">
+            <div class="flex flex-1 row">
+                Owen Gombas, David Darmanger, Clément Brigliano
+            </div>
+            <div class="flex flex-1 row justify-content-center">
+                17 juin 2022
+            </div>
+            <div class="flex flex-1 row justify-content-end">
+                HE-Arc Ingénierie
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
