@@ -1,6 +1,10 @@
 # Titre
 r/place
 
+# Liens
+- [Site du projet](https://owencalvin.github.io/r_place/)
+- [Présentation PowerPoint](https://hearc365-my.sharepoint.com/:p:/g/personal/owen_gombas_he-arc_ch/ET4pyPfYo5lNukHLrfuhjekBWNOLRxmxfGPmFc3H4AGdAg?e=P0stXK)
+
 # Créateurs
 David Darmanger, Clément Brigliano, Owen Gombas
 
